@@ -1,0 +1,30 @@
+{
+  "name": "quickfit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -u bdd -R spec",
+    "dev": "lite-server --baseDir=\"src\"",
+    "build-js": "mkdirp build/js && uglifyjs src/js/*.js -m -o build/js/app.js",
+    "lint": "jshint src/js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitouteng/quickfit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitouteng/quickfit/issues"
+  },
+  "homepage": "https://github.com/pitouteng/quickfit#readme",
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "jshint": "^2.11.0",
+    "lite-server": "^2.5.4",
+    "mkdirp": "^1.0.3",
+    "mocha": "^7.0.1",
+    "uglify-js": "^3.8.0"
+  }
+}
