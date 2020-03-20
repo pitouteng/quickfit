@@ -1,6 +1,11 @@
+* {
+    /* glboal font, feel free to change, I went for something similar to prototype */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-    background-color: #000000;
     color: white;
+    background-color: #D5D0CA;
 }
 
 img.brand {
@@ -9,7 +14,40 @@ img.brand {
 }
 
 .main-content {
-    height: 100vh;
-    background-color: #ffffff;
     color: #000000;
+}
+
+.main-content section {
+    /* Increase fonmt-size of all sections under .main-content */
+    font-size: x-large;
+}
+
+.footer {
+    background-color: #294D67;
+    padding: 15px;
+}
+
+
+/* Bootstrap modifications */
+
+.navbar {
+    background-color: #294D67;
+}
+
+.navbar-toggler-icon {
+    /* Toggler is invisible for some reason, use custom SVG instead */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron {
+    background-color: #1B1B1B;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+}
+
+.btn-default {
+    background-color: #FF9A00;
+    color: #FFF;
 }
