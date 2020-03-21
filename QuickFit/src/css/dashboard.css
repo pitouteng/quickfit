@@ -1,0 +1,122 @@
+* {
+    /* glboal font, feel free to change, I went for something similar to prototype */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: #D5D0CA;
+}
+
+.main-content {
+    color: #000000;
+}
+
+.footer {
+    background-color: #294D67;
+    padding: 15px;
+}
+
+
+/* Bootstrap modifications */
+
+.navbar {
+    background-color: #294D67;
+}
+
+.navbar-toggler-icon {
+    /* Toggler is invisible for some reason, use custom SVG instead */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron {
+    background-color: #1B1B1B;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+}
+
+.btn-default {
+    background-color: #FF9A00;
+    color: #FFF;
+}
+
+/* Profile Page CSS */
+.greeting {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.row > .my-programs, .row > .current-program, .row > .nutrition {
+    border: 1px solid #686767;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.my-programs > div:nth-child(even), .nutrition > div:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.my-programs > div, .nutrition > div, .current-program > div, .program-list > div {
+    border-bottom: 2px solid #706e6e;
+}
+
+.program-list > div:last-child, .nutrition > div:last-child {
+    border-bottom: none;
+}
+
+.nutrition > div {
+    padding: 0 10px 0 10px;
+}
+
+.box-title {
+    font-size: 25px;
+    padding: 0 0 10px 10px;
+}
+
+.current-program {
+    margin: 0 50px 0 50px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.add-button {
+    box-sizing: border-box;
+    width : 100%;
+}
+
+.exercise-names {
+    padding-right: 0;
+}
+
+.exercise-names div:nth-child(even) {
+    background-color: pink;
+}
+
+.exercise-names div:nth-child(odd) {
+    background-color: yellowgreen;
+}
+
+.program-list {
+    padding: 0;
+}
+
+.program-list > div {
+    padding: 0;
+}
+
+.buttons > button {
+    color: #ffffff;
+    background-color: #237fbd;
+    border-radius: 20px;
+    border: 1px solid #267fa8;
+    margin: 3px 0 3px 0;
+}
+
+.program-list {
+    border-radius: 0 0 20px 20px;
+}
