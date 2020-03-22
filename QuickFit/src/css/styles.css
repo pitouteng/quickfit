@@ -28,7 +28,6 @@ img.brand {
 }
 
 /* Bootstrap modifications */
-
 .navbar {
   background-color: #294D67;
   /* Navbar has a static height of 75px */
@@ -84,13 +83,13 @@ img.brand {
   padding-left: 15px;
 }
 
-/* Profile Page CSS */
+/* Dashboard */
 .greeting {
   font-size: 40px;
   margin-bottom: 30px;
 }
 
-.row > .my-programs, .row > .current-program, .row > .nutrition {
+.row > .my-programs, .row > .current-program, .row > .nutrition, .row > .history, .row > .info {
   border: 1px solid #686767;
   border-radius: 20px;
   padding: 0;
@@ -131,18 +130,6 @@ img.brand {
   width : 100%;
 }
 
-.exercise-names {
-  padding-right: 0;
-}
-
-.exercise-names div:nth-child(even) {
-  background-color: pink;
-}
-
-.exercise-names div:nth-child(odd) {
-  background-color: yellowgreen;
-}
-
 .program-list {
   padding: 0;
 }
@@ -161,4 +148,54 @@ img.brand {
 
 .program-list {
   border-radius: 0 0 20px 20px;
+}
+
+/* Profile Page CSS */
+.exercise-names {
+  padding-right: 0;
+}
+
+.exercise-names > div {
+  margin-bottom: 3px;
+}
+
+.exercise-names div:nth-child(even) {
+  background-color: pink;
+}
+
+.exercise-names div:nth-child(odd) {
+  background-color: yellowgreen;
+}
+
+/* Profile */
+.history > div:nth-child(even), .info > div:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.history > div, .info > div {
+  border-bottom: 2px solid #706e6e;
+}
+
+.history > div:last-child, .info > div:last-child {
+  border-bottom: none;
+}
+
+.box-title {
+  font-size: 25px;
+  padding: 0 0 10px 10px;
+}
+
+::placeholder {
+  color: #000000;
+  font-style: italic;
+}
+
+.fields {
+  padding: 30px 0 200px 0;
+  border-radius: 0 0 20px 20px;
+}
+
+.update-button {
+  box-sizing: border-box;
+  width : 100%;
 }
