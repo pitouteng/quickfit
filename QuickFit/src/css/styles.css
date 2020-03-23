@@ -200,6 +200,8 @@ img.brand {
   width : 100%;
 }
 
+/* Questionnaire */
+
 .btn-active {
   background-color: #FF9A00;
   color: #FFF;
@@ -213,7 +215,6 @@ img.brand {
   background-color: #00a2ff;
   color: #FFFFFF;
   position: sticky;
-
 }
 
 #nav-btn-right{
