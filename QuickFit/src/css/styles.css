@@ -199,3 +199,36 @@ img.brand {
   box-sizing: border-box;
   width : 100%;
 }
+
+.btn-active {
+  background-color: #FF9A00;
+  color: #FFF;
+}
+.btn-active:focus {
+  background-color: #ff5d00;
+  font-weight: bold;
+}
+
+.nav-btn {
+  background-color: #00a2ff;
+  color: #FFFFFF;
+  position: sticky;
+
+}
+
+#nav-btn-right{
+  background-color: #00a2ff;
+  color: #FFFFFF;
+  float: right;
+  position: sticky;
+  visibility: hidden;
+}
+
+.badge-pill {
+  background-color: #ff5d00;
+  color: #FFFFFF;
+}
+
+.choiceFixed {
+  height: 370px;
+}
