@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QuickFit</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <!-- Navbar toggle for mobile -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Buttons -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
+            <button class="btn btn-default my-2 my-sm-0">Login</button>
+        </div>
+    </nav>
+
+    <!-- Logo -->
+    <div class="jumbotron jumbotron-fluid">
+    </div>
+
+    <!-- Content -->
+    <div class ="container main-content">
+              <div class = "choiceFixed">
+        <section>
+          <h1 class = "display-4 text-center">
+            How many days a week will you train?
+          </h1>
+        </section>
+
+
+        <!--Saved Choices-->
+        <div class = "col text-center">
+          <h2> <span class="badge badge-pill badge-lg badge-primary"> Saved Answer 1</span> </h2>
+        </div>
+
+
+        <!-- Choices -->
+        <div class = "col text-center">
+          <button onclick = "makeVisible()" class = "btn btn-lg btn-active m-4 mt-5 p-3 col-sm-2 col-md-2"> 3 </button>
+          <button onclick = "makeVisible()" class = "btn btn-lg btn-active m-4 mt-5 p-3 col-sm-2 col-md-2"> 4 </button>
+          <button onclick = "makeVisible()" class = "btn btn-lg btn-active m-4 mt-5 p-3 col-sm-2 col-md-2"> 5 </button>
+          <button onclick = "makeVisible()" class = "btn btn-lg btn-active m-4 mt-5 p-3 col-sm-2 col-md-2"> 6 </button>
+
+        </div>
+      </div>
+
+        <!--Prev/Next Btns -->
+        <div class = "navigation-btn">
+          <div class = "container">
+            <div class ="row">
+              <div class = "col-sm-3 col-md-6">
+                <button class = "btn nav-btn nav-btn-left col-sm-3 col-md-6"> Previous </button>
+                </div>
+                <div class = "col-sm-3 col-md-6 text-right">
+                  <button id="nav-btn-right" class = "btn nav-btn col-sm-3 col-md-6"> Next </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      </div>
+      <!-- End of #main-content -->
+
+    <!-- Footer -->
+    <footer class="footer fixed-bottom">
+        <div class="container">
+            <div class="row">
+                <section class="col-4">
+                </section>
+                <section class="col-4">
+                </section>
+                <section class="col-4">
+                </section>
+            </div>
+            <div class="text-center">&copy; Copyright QuickFit 2020</div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
