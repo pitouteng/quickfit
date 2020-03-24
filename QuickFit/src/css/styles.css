@@ -233,3 +233,19 @@ img.brand {
 .choiceFixed {
   height: 370px;
 }
+
+/* pitou calendar */
+.close{
+  font-size: 12px;
+}
+
+table{
+  background-color: #d5dbeb
+}
+
+td .btn{
+  font-size: 12px;
+}
+td #empty{
+  font-size: 7px;
+}
